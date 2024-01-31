@@ -21,7 +21,7 @@ export function TwitterFollowCard ({ username = 'unknown', name, initialIsFollow
                     alt={`Avatar de ${username}`}
                     src={`https://unavatar.io/${username}`} />
                 <div className="tw-followCard-info">
-                    <strong>{name}</strong>
+                    <strong>{name}</strong>0
                     <span
                     className="tw-followCard-infoUserName">@{username}</span>
                 </div>
